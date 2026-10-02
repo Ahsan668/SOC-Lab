@@ -21,7 +21,7 @@ into the correct Elasticsearch data stream with a real public IP (8.8.8.8, Googl
 registered to the United States):
 
 ```bash
-curl -k -u elastic:UqbWaZFseQnxzup_unJ4 \
+curl -k -u elastic:------------------- \
   -X POST "https://localhost:9200/logs-system.security-default/_doc" \
   -H 'Content-Type: application/json' \
   -d '{
